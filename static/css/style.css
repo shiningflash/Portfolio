@@ -20,7 +20,7 @@ body{
 	margin: 0;
 	padding: 0;
 	color: #333333;
-	font-size: 14px;
+	font-size: 13px;
 	background: #070A11;
 }
 
@@ -66,7 +66,7 @@ ul,li{
 body, p{
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 22px;
 }
 
@@ -76,13 +76,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-    font-size: 36px;
-    line-height: 48px;
+    font-size: 32px;
+    line-height: 43px;
 }
 
 h2{
-    font-size: 30px;
-    line-height: 24px;
+    font-size: 27px;
+    line-height: 22px;
     font-weight: 500;
     text-transform: uppercase;
     color: #566366;
@@ -90,7 +90,7 @@ h2{
 
 h3{
     font-size: 22px;
-    line-height: 24px;
+    line-height: 22px;
   	text-transform: uppercase;
   	font-weight: 500;
   	 
@@ -99,13 +99,13 @@ h3{
 
 h4{
     font-size: 17px;
-    line-height: 20px;
+    line-height: 18px;
     font-weight: 400;
 }
 
 h5{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 22px;
 }
 
 
@@ -113,9 +113,9 @@ h5{
 /*Button styles
 =============================================*/
 .btn-default{
-	font-size: 18px;
-	line-height: 24px;
-	padding: 20px 19px;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 18px 17px;
 	border: 2px solid#fff;
 	text-transform: uppercase;
 	border-radius: 0px;
@@ -127,16 +127,16 @@ h5{
 	transition: all .4s ease-in 0s;
 }
 .btn-default.featured{
-	font-size: 18px;
-	line-height: 24px;
-	padding: 20px 19px;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 18px 17px;
 	border: 2px solid#09C3E7;
 	text-transform: uppercase;
 	border-radius: 0px;
 	font-weight: 700;
 	background: transparent;
 	color: #09C3E7;
-	margin-top: 50px;
+	margin-top: 46px;
 	-webkit-transition: all .4s ease-in 0s;
 	-o-transition: all .4s ease-in 0s;
 	transition: all .4s ease-in 0s;
@@ -161,7 +161,7 @@ p{
 	color: #696969;
 }
 h2.heading-title{
-	margin-bottom: 50px;
+	margin-bottom: 46px;
 	font-weight: 700;
 }
 .section-heading{
@@ -178,13 +178,13 @@ h2.heading-title{
 	background-size: cover;
 }
 .banner-content{
-	/* padding: 250px 0px 300px 0px; */
-	padding: 250px 0px 250px 0px;
+	/* padding: 246px 0px 300px 0px; */
+	padding: 246px 0px 246px 0px;
 }
 
 h2.title{
-	font-size: 57px;
-	line-height: 72px;
+	font-size: 54px;
+	line-height: 66px;
 	color: #fff;
 	font-weight: 600;
 	/* text-transform: capitalize; */
@@ -201,21 +201,21 @@ h2.title span{
 	font-weight: normal;
 }
 .line-top{
-	width: 930px;
+	width: 927px;
 	color: #fff;
 	background: #fff;
 	height: 2px;
 	margin: 32px auto;
 }
 .line-btm{
-	width: 930px;
+	width: 927px;
 	color: #fff;
 	background: #fff;
 	height: 2px;
 	margin: 32px auto;
 }
 .banner-content a.btn-default {
-	padding: 15px 36px!important;
+	padding: 15px 32px!important;
 }
 
 
@@ -259,11 +259,11 @@ h2.title span{
 }
 .navbar-default .navbar-nav > li > a{
 	font-weight: 400;
-	padding: 30px 20px;
+	padding: 27px 18px;
 	font-size: 15px;
 	font-family: 'Roboto', serif;
 	color: #fff;
-	line-height: 30px;
+	line-height: 27px;
 	text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus{
@@ -281,7 +281,7 @@ h2.title span{
 
 .navbar-brand img{
 	float: left;
-	margin-right: 20px;
+	margin-right: 18px;
 }
 .navbar-brand{
 	text-transform: uppercase;
@@ -302,11 +302,11 @@ h2.title span{
 =====================================================*/
 
 #section-overview{
-	padding: 75px 0px 80px;
+	padding: 72px 0px 76px;
 }
 .overview-box{}
 .overview-box h3{
-	margin-bottom: 35px;
+	margin-bottom: 32px;
 }
 
 
@@ -314,7 +314,7 @@ h2.title span{
 	section-profile
 =====================================================*/
 #section-skill .btn-default.featured{
-	padding: 15px 36px!important;
+	padding: 15px 32px!important;
 }
 #section-profile{
 	background: #f2f2f1;
@@ -339,17 +339,17 @@ h2.title span{
 }
 .profile-desc{
 	margin-bottom: 70px;
-	padding-left: 80px;
+	padding-left: 76px;
 }
 .profile-desc h2{
 }
 .service-wrapper{
-	/* padding-left: 80px; */
+	/* padding-left: 76px; */
 }
 .service-inner{
 	float: left;
 	margin-right: 12px;
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 	width: 48%;
 }
 .service-inner i{
@@ -365,11 +365,11 @@ h2.title span{
 .service-box h3{
 	text-transform: uppercase;
 	margin-bottom: 16px;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 22px;
 }
 .service-box p{
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 22px;
 }
 
@@ -385,8 +385,8 @@ h2.title span{
 	color: #566366;
 }
 .progress {
-    height: 18px;
-    margin-bottom: 20px;
+    height: 16px;
+    margin-bottom: 18px;
     overflow: hidden;
     background-color: #F2f2f1;
     border-radius: 0px;
@@ -429,7 +429,7 @@ h2.title span{
 	margin-top: -12px;
 }
 .resume-box{
-	margin-bottom: 80px;
+	margin-bottom: 76px;
 }
 .resume-title{
 
@@ -495,7 +495,7 @@ h2.title span{
 .client-name{
 	color: #566366;
 	text-transform: uppercase;
-	margin-bottom: 50px;
+	margin-bottom: 46px;
 }
 
 
@@ -508,7 +508,7 @@ h2.title span{
 }
 .portfolio-box{
 	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: 27px;
 	-webkit-transition: all .4s linear 0s;
 	-o-transition: all .4s linear 0s;
 	transition: all .4s linear 0s;
@@ -526,7 +526,7 @@ h2.title span{
 	transition: all .3s linear 0s;
 }
 .image-overlay a i{
-	font-size: 50px;
+	font-size: 46px;
 	color: #fff;
 	margin-top: 96px;
 }
@@ -545,12 +545,12 @@ h2.title span{
 	color: #fff;
 }
 .contact-left{
-	padding-top: 30px;
+	padding-top: 27px;
 }
 .contact-left p{
 	color: #A1B9CA;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 27px;
 }
 
 .contact-left h2{
@@ -579,12 +579,12 @@ h2.title span{
 }
 .contact-box label{
 	color: #09C3E7;
-	margin-bottom: 20px;
-	font-size: 18px;
+	margin-bottom: 18px;
+	font-size: 16px;
 }
 
 .contact-box .form-control{
-	height: 50px;
+	height: 46px;
 	border-radius: 0px;
 	background: #002037;
 	border: 0px;
@@ -641,8 +641,8 @@ border-radius: 50%;
 
 .timeline-centered {
 position: relative;
-margin-bottom: 30px;
-margin-top: 20px;
+margin-bottom: 27px;
+margin-top: 18px;
 }
 
 .timeline-centered:before, .timeline-centered:after {
@@ -663,14 +663,14 @@ display: table;
 clear: both;
 }
 
-.timeline-centered:before {content: '';position: absolute;display: block;width: 4px;background: #1E2431;/*left: 50%;*/top: 20px;bottom: 20px;margin-left: 30px;}
+.timeline-centered:before {content: '';position: absolute;display: block;width: 4px;background: #1E2431;/*left: 50%;*/top: 18px;bottom: 18px;margin-left: 27px;}
 
 .timeline-centered .timeline-entry {
 position: relative;
 /*width: 50%;
 float: right;*/
 margin-top: 5px;
-margin-left: 30px;
+margin-left: 27px;
 margin-bottom: 10px;
 clear: both;
 }
@@ -703,7 +703,7 @@ float: left;
 
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner {
 margin-left: 0;
-margin-right: -18px;
+margin-right: -16px;
 }
 
 .timeline-centered .timeline-entry.left-aligned .timeline-entry-inner .timeline-time {
@@ -735,7 +735,7 @@ margin-right: -18px;
 
 .timeline-centered .timeline-entry .timeline-entry-inner {
 position: relative;
-margin-left: -20px;
+margin-left: -18px;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner:before, .timeline-centered .timeline-entry .timeline-entry-inner:after {
@@ -788,9 +788,9 @@ height: 40px;
 -webkit-background-clip: padding-box;
 -moz-background-clip: padding;
 background-clip: padding-box;
--webkit-border-radius: 20px;
--moz-border-radius: 20px;
-border-radius: 20px;
+-webkit-border-radius: 18px;
+-moz-border-radius: 18px;
+border-radius: 18px;
 text-align: center;
 -moz-box-shadow: 0 0 0 5px #f5f5f6;
 -webkit-box-shadow: 0 0 0 5px #f5f5f6;
@@ -830,7 +830,7 @@ float: left;
 	color: #fff;
 }
 
-.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {position: relative;background: #1E2431;padding: 20px 30px;margin-left: 60px;-webkit-background-clip: padding-box;-moz-background-clip: padding;background-clip: padding-box;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;margin-bottom: 25px;}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {position: relative;background: #1E2431;padding: 18px 27px;margin-left: 60px;-webkit-background-clip: padding-box;-moz-background-clip: padding;background-clip: padding-box;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;margin-bottom: 25px;}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
 	content: '';
@@ -848,7 +848,7 @@ float: left;
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2, .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
 	color: #737881;
-	font-family: 'Roboto', sans-serif;    font-weight: normal;    font-size: 16px;    line-height: 30px;
+	font-family: 'Roboto', sans-serif;    font-weight: normal;    font-size: 16px;    line-height: 27px;
 }
 
 	.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
@@ -879,21 +879,21 @@ float: left;
 
 	#section-footer{
 		background: #002037;
-		padding: 50px 0px;
+		padding: 46px 0px;
 	}
 	#section-footer h4{
 		color: #0E788D;
-		margin-top: 30px;
+		margin-top: 27px;
 	}
 
 .socail-link{}
 .socail-link a i{
-	width: 35px;
-	height: 35px;
+	width: 32px;
+	height: 32px;
 	border-radius: 100%;
 	color: #08C2E6;
-	font-size: 20px;
-	line-height: 35px;
+	font-size: 18px;
+	line-height: 32px;
 }
 .socail-link a:hover i{
 	color: #fff;
@@ -937,7 +937,7 @@ float: left;
 
 	.navbar-default .navbar-nav > li > a {
 	    padding: 15px 9px;
-    	font-size: 14px;
+    	font-size: 13px;
 	}
 	.service-inner {
 	    width: 48%;
@@ -959,7 +959,7 @@ float: left;
 @media (max-width : 479px) {
 
 	h2.heading-title{
-	margin-bottom: 30px;
+	margin-bottom: 27px;
 	font-weight: 700;
 	}	
 
@@ -980,21 +980,21 @@ float: left;
 	}
 	h2.title {
     font-size: 38px;
-    line-height: 72px;
+    line-height: 66px;
 	margin-left:15px;
 	}
 	h2.title span {
-    font-size: 18px;
-    line-height: 35px;
-    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 32px;
+    padding: 10px 18px;
  }
 	h2.heading-title{
-	margin-bottom: 30px;
+	margin-bottom: 27px;
 	font-weight: 700;
 	}	
 
 	.navbar-default .navbar-nav > li > a {
-    	padding: 15px 20px;
+    	padding: 15px 18px;
 	}
 
 	.banner-content {
@@ -1010,7 +1010,7 @@ float: left;
    	 padding-left: 10px;
 	}
 	.service-wrapper {
-   	 padding-left: 20px;
+   	 padding-left: 18px;
 	}
 
 	.service-inner {

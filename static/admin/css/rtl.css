@@ -112,7 +112,7 @@ thead th.sorted .text {
     border-left: none;
     border-right: none;
     margin-left: 0;
-    margin-right: 30px;
+    margin-right: 27px;
 }
 
 #changelist-filter li.selected {
@@ -177,7 +177,7 @@ input[type=submit].default, .submit-row input.default {
 
 fieldset .fieldBox {
     float: right;
-    margin-left: 20px;
+    margin-left: 18px;
     margin-right: 0;
 }
 
@@ -236,7 +236,7 @@ form .form-row p.datetime {
 }
 
 .inline-related h3 span.delete {
-    padding-right: 20px;
+    padding-right: 18px;
     padding-left: inherit;
     left: 10px;
     right: inherit;

@@ -84,13 +84,13 @@
 
 #toolbar form input {
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 13px;
     padding: 5px;
     color: #333;
 }
 
 #toolbar #searchbar {
-    height: 19px;
+    height: 17px;
     border: 1px solid #ccc;
     padding: 2px 5px;
     margin: 0;
@@ -110,7 +110,7 @@
     margin: 0;
     vertical-align: middle;
     background: #fff;
-    box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 -15px 18px -10px rgba(0, 0, 0, 0.15) inset;
     cursor: pointer;
     color: #333;
 }
@@ -132,11 +132,11 @@
     width: 240px;
     background: #f8f8f8;
     border-left: none;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 27px;
 }
 
 #changelist-filter h2 {
-    font-size: 14px;
+    font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     padding: 5px 15px;
@@ -146,7 +146,7 @@
 
 #changelist-filter h3 {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 13px;
     padding: 0 15px;
     margin-bottom: 10px;
 }
@@ -288,7 +288,7 @@
     background: #fff;
     border-top: none;
     border-bottom: none;
-    line-height: 24px;
+    line-height: 22px;
     color: #999;
     width: 100%;
 }
@@ -314,12 +314,12 @@
 
 #changelist .actions select {
     vertical-align: top;
-    height: 24px;
+    height: 22px;
     background: none;
     color: #000;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 13px;
     padding: 0 0 0 4px;
     margin: 0;
     margin-left: 10px;
@@ -340,9 +340,9 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     background: #fff;
-    box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 -15px 18px -10px rgba(0, 0, 0, 0.15) inset;
     cursor: pointer;
-    height: 24px;
+    height: 22px;
     line-height: 1;
     padding: 4px 8px;
     margin: 0;
