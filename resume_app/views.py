@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Resume, Form, Field, Education, Experience, Review, \
-    Portfolio, SkillName, SkillDescription, Awards, Certificate
+    Portfolio, SkillName, SkillDescription, Awards, Certificate, MetaData
 
 def home(request):
     resume = Resume.objects.get(pk=1)
@@ -13,6 +13,7 @@ def home(request):
     skill = SkillName.objects.all()
     awards = Awards.objects.all()
     certificate = Certificate.objects.all()
+    metadata = MetaData.objects.get(pk=1)
 
     context = {
             "resume": resume,
@@ -24,7 +25,8 @@ def home(request):
             "skill_description": skill_description,
             "skill": skill,
             "awards": awards,
-            "certificate": certificate
+            "certificate": certificate,
+            "metadata": metadata
         }
     return render(request, 'resume/home.html', context)
 
@@ -39,6 +41,7 @@ def contact(request):
     skill = SkillName.objects.all()
     awards = Awards.objects.all()
     certificate = Certificate.objects.all()
+    metadata = MetaData.objects.get(pk=1)
 
     if request.method == 'POST':
         contact_name = request.POST['contact_name']
@@ -61,7 +64,8 @@ def contact(request):
             "skill_description": skill_description,
             "skill": skill,
             "awards": awards,
-            "certificate": certificate
+            "certificate": certificate,
+            "metadata": metadata
         }
         if len(contact_name) > 2:
             form.save()
@@ -77,7 +81,8 @@ def contact(request):
             "skill_description": skill_description,
             "skill": skill,
             "awards": awards,
-            "certificate": certificate
+            "certificate": certificate,
+            "metadata": metadata
         }
 
     return render(request, 'resume/home.html', context)

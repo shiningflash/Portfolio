@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import Resume, Form, Field, Education, Experience, Review, \
-    Portfolio, SkillDescription, SkillName, Awards, Certificate
+    Portfolio, SkillDescription, SkillName, Awards, Certificate, MetaData
 
 admin.site.register(Resume)
 admin.site.register(Form)
@@ -13,4 +13,5 @@ admin.site.register(SkillDescription)
 admin.site.register(SkillName)
 admin.site.register(Awards)
 admin.site.register(Certificate)
+admin.site.register(MetaData)
 

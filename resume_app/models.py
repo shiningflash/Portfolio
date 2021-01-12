@@ -129,3 +129,7 @@ class Certificate(models.Model):
 
     def __str__(self):
         return self.title
+
+class MetaData(models.Model):
+    meta_img = models.ImageField(upload_to="meta_img/%y", default='resume_app/static/images/portf.png')
+    meta_type = models.CharField(max_length=1000, default='website')
