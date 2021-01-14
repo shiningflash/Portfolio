@@ -134,4 +134,4 @@ class MetaData(models.Model):
     meta_img = models.ImageField(upload_to="meta_img/%y", default='resume_app/static/images/portf.png')
     meta_type = models.CharField(max_length=1000, default='website')
     meta_title = models.CharField(max_length=1000, default='Amirul Islam')
-    meta_des = models.CharField(max_length=1000, default='Follow me ...')
+    meta_des = models.CharField(max_length=1000, default='Follow me')
