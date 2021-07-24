@@ -101,7 +101,7 @@ form ul.inline li {
 }
 
 .colMS .aligned .vLargeTextField, .colMS .aligned .vXMLLargeTextField {
-    width: 346px;
+    width: 350px;
 }
 
 form .aligned ul {
@@ -179,7 +179,7 @@ form .aligned table p {
 
 fieldset .fieldBox {
     float: left;
-    margin-right: 18px;
+    margin-right: 20px;
 }
 
 /* WIDE FIELDSETS */
@@ -205,7 +205,7 @@ form div.help ul {
 }
 
 .colM fieldset.wide .vLargeTextField, .colM fieldset.wide .vXMLLargeTextField {
-    width: 446px;
+    width: 450px;
 }
 
 /* COLLAPSED FIELDSETS */
@@ -248,8 +248,8 @@ fieldset.monospace textarea {
 /* SUBMIT ROW */
 
 .submit-row {
-    padding: 12px 13px;
-    margin: 0 0 18px;
+    padding: 12px 14px;
+    margin: 0 0 20px;
     background: #f8f8f8;
     border: 1px solid #eee;
     border-radius: 4px;
@@ -262,7 +262,7 @@ body.popup .submit-row {
 }
 
 .submit-row input {
-    height: 32px;
+    height: 35px;
     line-height: 15px;
     margin: 0 0 0 5px;
 }
@@ -373,7 +373,7 @@ body.popup .submit-row {
 
 .inline-group {
     padding: 0;
-    margin: 0 0 27px;
+    margin: 0 0 30px;
 }
 
 .inline-group thead th {
@@ -507,7 +507,7 @@ body.popup .submit-row {
     display: inline-block;
     vertical-align: middle;
     background-repeat: no-repeat;
-    background-size: 13px;
+    background-size: 14px;
 }
 
 .related-lookup {

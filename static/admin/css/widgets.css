@@ -6,13 +6,13 @@
 }
 
 .selector select {
-    width: 376px;
+    width: 380px;
     height: 17.2em;
 }
 
 .selector-available, .selector-chosen {
     float: left;
-    width: 376px;
+    width: 380px;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -51,15 +51,15 @@
 .inline-group .aligned .selector .selector-filter label {
     float: left;
     margin: 7px 0 0;
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     padding: 0;
     overflow: hidden;
     line-height: 1;
 }
 
 .selector .selector-available input {
-    width: 318px;
+    width: 320px;
     margin-left: 8px;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .active.selector-remove:focus, .active.selector-remove:hover {
-    background-position: 0 -76px;
+    background-position: 0 -80px;
 }
 
 a.selector-chooseall, a.selector-clearall {
@@ -145,7 +145,7 @@ a.active.selector-chooseall:hover, a.active.selector-clearall:hover {
 }
 
 a.selector-chooseall {
-    padding: 0 16px 0 0;
+    padding: 0 18px 0 0;
     background: url(../img/selector-icons.svg) right -160px no-repeat;
     cursor: default;
 }
@@ -155,7 +155,7 @@ a.active.selector-chooseall:focus, a.active.selector-chooseall:hover {
 }
 
 a.selector-clearall {
-    padding: 0 0 0 16px;
+    padding: 0 0 0 18px;
     background: url(../img/selector-icons.svg) 0 -128px no-repeat;
     cursor: default;
 }
@@ -172,12 +172,12 @@ a.active.selector-clearall:focus, a.active.selector-clearall:hover {
 }
 
 .stacked select {
-    width: 476px;
+    width: 480px;
     height: 10.1em;
 }
 
 .stacked .selector-available, .stacked .selector-chosen {
-    width: 476px;
+    width: 480px;
 }
 
 .stacked .selector-available {
@@ -190,7 +190,7 @@ a.active.selector-clearall:focus, a.active.selector-clearall:hover {
 
 .stacked ul.selector-chooser {
     height: 22px;
-    width: 46px;
+    width: 50px;
     margin: 0 0 10px 40%;
     background-color: #eee;
     border-radius: 10px;
@@ -216,7 +216,7 @@ a.active.selector-clearall:focus, a.active.selector-clearall:hover {
 }
 
 .stacked .active.selector-add:focus, .stacked .active.selector-add:hover {
-    background-position: 0 -43px;
+    background-position: 0 -48px;
     cursor: pointer;
 }
 
@@ -251,14 +251,14 @@ a.active.selector-clearall:focus, a.active.selector-clearall:hover {
 .selector .search-label-icon {
     background: url(../img/search.svg) 0 0 no-repeat;
     display: inline-block;
-    height: 16px;
-    width: 16px;
+    height: 18px;
+    width: 18px;
 }
 
 /* DATE AND TIME */
 
 p.datetime {
-    line-height: 18px;
+    line-height: 20px;
     margin: 0;
     padding: 0;
     color: #666;
@@ -319,7 +319,7 @@ table p.datetime {
 /* URL */
 
 p.url {
-    line-height: 18px;
+    line-height: 20px;
     margin: 0;
     padding: 0;
     color: #666;
@@ -334,7 +334,7 @@ p.url {
 /* FILE UPLOADS */
 
 p.file-upload {
-    line-height: 18px;
+    line-height: 20px;
     margin: 0;
     padding: 0;
     color: #666;
@@ -498,7 +498,7 @@ span.clearable-file-input label {
 
 .calendarnav-next {
     right: 10px;
-    background: url(../img/calendar-icons.svg) 0 -27px no-repeat;
+    background: url(../img/calendar-icons.svg) 0 -30px no-repeat;
 }
 
 .calendarbox .calendarnav-next:focus,

@@ -37,25 +37,24 @@
   </head>
    <body data-spy="scroll" data-target=".main-nav">
 
-   <section id="section-banner">
+    <section id="section-banner">
     	<div class="container">
     		<div class="row">
     			<div class="banner-content wow fadeInRight">
     				<h2 class="title"> 
 	    					Hello,<br/>
 							<span>
-				I'm {{resume.full_name}}, <br/> 
-							a {{resume.title}}
+				I'm <span style="color: #09C3E7; font-weight: bold"> {{resume.full_name}} </span>, <br/> 
+							{{resume.title}}
                          	</span>
     				</h2>
 
-    				{% comment %} <a href="https://github.com/shiningflash" class="btn btn-default" target="_blank">Learn More</a> {% endcomment %}
 					<a href={{resume.linkedin}} target="_blank" class="btn btn-default"><i class="fa fa-linkedin fa-1g"></i></a>
 					<a href={{resume.github}} target="_blank" class="btn btn-default"><i class="fa fa-github fa-1g"></i></a>
     			</div>
     		</div>
     	</div>
-    </section>
+    </section> 
     
     {% comment %} {% block content %}
 
@@ -93,7 +92,7 @@
     	</div>
     </section>
     <!-- section menu end -->
- <section id="section-overview" class="section-padding">
+    {% comment %} <section id="section-overview" class="section-padding">
 		<div class="container">
 			<div class="row">
 						<div class="service-wrapper">
@@ -114,7 +113,7 @@
 						</div>
 					</div><!-- row end -->
 		</div>
-	</section>
+	</section> {% endcomment %}
 	<!-- section overview end -->
 
 	<!-- section profile start -->
