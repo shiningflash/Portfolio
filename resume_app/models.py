@@ -135,3 +135,11 @@ class MetaData(models.Model):
     meta_type = models.CharField(max_length=1000, default='website')
     meta_title = models.CharField(max_length=1000, default='Amirul Islam')
     meta_des = models.CharField(max_length=1000, default='Follow me')
+
+class UserIP(models.Model):
+    ip = models.CharField(default=None, max_length=100, unique=True)
+    first_visited = models.DateTimeField(auto_now_add=True)
+    last_visited = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.ip

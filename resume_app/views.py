@@ -1,8 +1,12 @@
 from django.shortcuts import render
 from .models import Resume, Form, Field, Education, Experience, Review, \
-    Portfolio, SkillName, SkillDescription, Awards, Certificate, MetaData
+    Portfolio, SkillName, SkillDescription, Awards, Certificate, MetaData, UserIP
+from .helpers import manage_visitors
+
 
 def home(request):
+    manage_visitors(request)
+
     resume = Resume.objects.get(pk=1)
     field = Field.objects.get(pk=1)
     education = Education.objects.get(pk=1)
@@ -14,6 +18,7 @@ def home(request):
     awards = Awards.objects.all()
     certificate = Certificate.objects.all()
     metadata = MetaData.objects.get(pk=1)
+    unique_visitors_count = UserIP.objects.all().count()
 
     context = {
             "resume": resume,
@@ -26,11 +31,14 @@ def home(request):
             "skill": skill,
             "awards": awards,
             "certificate": certificate,
-            "metadata": metadata
+            "metadata": metadata,
+            "unique_visitors_count": unique_visitors_count,
         }
     return render(request, 'resume/home.html', context)
 
 def contact(request):
+    manage_visitors(request)
+
     resume = Resume.objects.get(pk=1)
     field = Field.objects.get(pk=1)
     education = Education.objects.get(pk=1)
@@ -42,6 +50,7 @@ def contact(request):
     awards = Awards.objects.all()
     certificate = Certificate.objects.all()
     metadata = MetaData.objects.get(pk=1)
+    unique_visitors_count = UserIP.objects.all().count()
 
     if request.method == 'POST':
         contact_name = request.POST['contact_name']
@@ -82,7 +91,8 @@ def contact(request):
             "skill": skill,
             "awards": awards,
             "certificate": certificate,
-            "metadata": metadata
+            "metadata": metadata,
+            "unique_visitors_count": unique_visitors_count,
         }
 
     return render(request, 'resume/home.html', context)
